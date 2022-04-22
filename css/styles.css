@@ -202,9 +202,12 @@ img {
 
 /*-----------------------ABOUT---------------------*/
 
+.main-feature {
+  padding-top: 94px;
+}
+
 .main-feature-list {
   display: flex;
-  padding-top: 94px;
 }
 
 .main-feature-list .main-feature-item + .main-feature-item {
@@ -294,7 +297,7 @@ img {
 }
 
 .footer-logo {
-  display: flex;
+  display: block;
   margin-bottom: 20px;
 }
 
@@ -368,11 +371,11 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  margin: -10px;
+  margin: -15px;
 }
 
 .portfolio-list li {
-  margin: 10px;
+  margin: 15px;
 }
 
 .portfolio-title {
@@ -389,6 +392,7 @@ img {
   padding: 20px;
 
   border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .portfolio-text {
