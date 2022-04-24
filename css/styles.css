@@ -125,6 +125,10 @@ img {
   margin-left: 93px;
 }
 
+.header-list .link.current {
+  color: var(--accent-color);
+}
+
 .header-contacts {
   display: flex;
   margin-left: auto;
