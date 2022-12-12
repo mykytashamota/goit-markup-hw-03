@@ -160,6 +160,12 @@ header .container {
   color: var(--accent-color);
 }
 
+.site-nav-link,
+.auth-nav-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 /* ------------------------MAIN---------------------------- */
 /* ---------HERO-------- */
 
@@ -210,6 +216,7 @@ header .container {
 
 .about {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .about-list {
@@ -249,7 +256,6 @@ header .container {
 }
 
 .our-job {
-  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -287,18 +293,17 @@ header .container {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-img {
-  margin-bottom: 32px;
+.teamcard-container {
+  padding: 32px 16px;
 }
 
 .team-subtitle {
-  margin-bottom: 8px;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-text {
   text-align: center;
-  padding-bottom: 32px;
 }
 
 /* --------FOOTER-------- */
@@ -308,6 +313,10 @@ header .container {
 
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.footer-container {
+  width: 264px;
 }
 
 .footer-logo-beginnig {
@@ -338,11 +347,11 @@ header .container {
 
 /* -----------------------------PORTFOLIO-------------------------- */
 .portfolio {
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 
 .filter-list {
-  padding-top: 96px;
   margin-bottom: 72px;
   display: flex;
   justify-content: center;
@@ -389,15 +398,11 @@ header .container {
   border: 0.5px solid #f4f4fd;
   border-top: none;
   box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08);
-  padding-left: 16px;
-  padding-top: 32px;
+
+  padding: 32px 16px;
 }
 
 .portfolio-subtitle {
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 8px;
-}
-
-.portfolio-text {
-  padding-bottom: 32px;
 }
